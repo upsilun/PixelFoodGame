@@ -14,7 +14,7 @@ int main()
 	initGrid();
 	while (GameActive)
 	{
-		cout << "\n       ";
+		cout << "\n      ";
 		cin >> PlayerInput;
 		system("CLS");
 		MovePlayer(PlayerInput);
